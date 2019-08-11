@@ -1,0 +1,7 @@
+myFlaskOAuthTest
+
+client id 
+855092671291-4jtfcv791qnbh5frlmpcv8iheva1k6e9.apps.googleusercontent.com
+
+client secret
+7G0-XpWRBJ8Fwiv_KemJsBLL

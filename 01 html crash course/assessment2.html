@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assessment2</title>
+    
+</head>
+<body>
+    <h1>Puppy Adoption Page</h1>
+    <h3>Please enter your info and we'll email you back</h3>
+
+    <p>Please Note: First Name, Last Name, Email and Password are required</p>
+
+    <form method="GET">
+        <label for="firstname">First Name:</label>
+        <input id="firstname" type="text" placeholder="First Name">
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder="Last Name">
+        <br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="name@email.com">
+
+        <label for="password">Password:</label>
+        <input id="password" type="password">
+        <br>
+
+        <p>Are you over the age of 18?</p>
+        <label for="yes">Yes:</label>
+        <input id="yes" type="radio" name="age_over_18" value="yes">
+
+        <label for="no">No:</label>
+        <input id="no" type="radio" name="age_over_18" value="no">
+        <br>
+
+        <p>Do you have a Credit Card or Paypal?</p>
+        <select name="pay">
+            <option value="credit card">Credit Card</option>
+            <option value="paypal" >Paypal</option>
+        </select>
+
+        <input type="submit" value="submit feedback">
+    </form>
+
+</body>
+</html>
